@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Arabic';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f092;
+}
+
+p {
+    text-align: justify;
+}
+
+header{
+    background-image: linear-gradient(to top, #EBBF27, #F2E85C);
+    padding: 2px 5px;
+}
+
+header > h1 {
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.555);
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+}
+
+header > nav > a{
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 1px 3px;
+    text-decoration: none;
+    color: rgb(40, 44, 45);
+    transition: background-color 0.35s ease-in-out;
+}
+
+header > nav > a:hover{
+    
+    color: rgb(61, 67, 69);
+    background-color: #F2E85C;
+}
+
+main{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
+    margin: auto;
+    padding: 5px 15px;
+    max-width: 850px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+h1#titulo{
+    font-family: 'Arabic';
+}
+
+h2{
+    font-family: 'Arabic';
+    background-image: linear-gradient(to right, #f1cc4694, white);
+}
+
+section#video{
+    padding: 10px;
+    background-color: #EBBF27;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+picture{
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.371);
+    display: block;
+    margin: auto;
+}
+
+section#extra{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.256);
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-color: #f2e85cb6;
+    overflow: hidden;
+}
+
+div#cabeça{
+    margin: -18.72px 0px;
+    padding: 0px 5px;
+    background-color: #EBBF27;
+    color: azure;
+}
+
+footer{
+    margin: 0px;
+    width: 100vw;
+    padding: 2px;
+    text-align: center;
+    background-color: #EBBF27;
+}
+
+ul {
+    column-count: 2;  /* Divide a lista em 2 colunas */
+    column-gap: 20px; /* Espaçamento entre colunas */
+    list-style-position: inside;
+}
+
